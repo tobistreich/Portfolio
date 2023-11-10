@@ -1,0 +1,59 @@
+/* GENERELLES */
+
+.active {
+   background-color: lightgray;
+   border-radius: 15px;
+}
+
+/* NAVBAR */
+
+.nav-item {
+   font-size: 1.2rem;
+}
+
+/* Footer */
+
+#footer {
+   background-color: #3D3F45;
+   color: #FFF;
+   height: 2.8rem;
+}
+
+#footer-span {
+   margin-top: 0.5rem;
+   margin-right: 1.5rem;
+   padding-top: 0.5rem;
+}
+
+#footer-nav {
+   display: inline-block;
+   float: right;
+   margin-top: 0.5rem;
+   margin-right: 1.5rem;
+}
+
+#footer-nav > a {
+   text-decoration: none;
+}
+
+#footer-nav > a:link {
+   color: #FFF;
+}
+
+#footer-nav > a:visited {
+   color: #FFF;
+}
+
+#footer-nav > a:active {
+   color: #FFF;
+}
+
+#footer-nav > a:hover {
+   color: #F0F0F0;
+}
+
+@media (max-width: 565px) {
+   #footer span {
+      display: none;
+   }
+}
